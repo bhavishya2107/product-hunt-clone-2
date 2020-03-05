@@ -1,0 +1,261 @@
+body {
+  background-color: #f3f3f3;
+  font-size: 16px;
+}
+
+//header component scss
+.header-div {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 67px;
+  text-align: center;
+  width: 100%;
+  background-color: #ffffff;
+  .header-content-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 65%;
+  }
+
+  .input_container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    // padding: 0.3rem;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .search_container {
+    width: 11%;
+    padding: 0 0.2rem;
+  }
+  .search {
+    width: 100%;
+    opacity: 0.8;
+  }
+  .input_box {
+    width: 300px;
+    border: none;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+  }
+  .input_box::placeholder {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .login_btn,
+  .signup_btn {
+    padding: 0.5rem 0.7rem;
+    margin: 0 0.2rem;
+    font-weight: 700;
+    border-radius: 0.2rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .login_btn:hover {
+    background-color: #f3f3f3;
+  }
+  .signup_btn {
+    background-color: #cc4d2b;
+    color: white;
+  }
+  .signup_btn:hover {
+    background-color: rgb(252, 81, 34);
+    color: black;
+  }
+  span {
+    color: #6f6f6f;
+  }
+  span:hover {
+    color: black;
+    cursor: pointer;
+  }
+}
+
+//main-section styling
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 100%;
+}
+
+// main-section-left component scss
+.container {
+  width: 720px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 120px;
+  margin-top: 1.5px;
+  background: #fff;
+
+  .container-up-vote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    border: 1px #f3f3f3 solid;
+    border-radius: 2px;
+  }
+  .container-up-votes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    // border: 1px #f3f3f3 solid;
+    border-radius: 2px;
+  }
+
+  .container-up-vote:hover {
+    background: #f3f3f3;
+  }
+}
+
+.container:hover {
+  background: #eeeeee;
+  .container-up-vote {
+    background: #fff;
+  }
+}
+
+.container-device {
+  margin-left: 10px;
+}
+
+.popular-this-month {
+  .popular-heading {
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    left: 21rem;
+  }
+}
+
+.today-container {
+  .today-conatiner-heading {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 12rem;
+    width: 85%;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .today-container-heading-2 {
+    // width: 20px;
+    position: relative;
+    left: 21rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20%;
+    font-weight: 100;
+    font-size: 1rem;
+  }
+}
+
+//makers
+.main-section-right {
+  width: 30%;
+  position: relative;
+  left: 20rem;
+  bottom: 1.8rem;
+}
+
+.makers-container-para {
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+  left: 0rem;
+  bottom: 1.8rem;
+
+}
+
+.makers_top {
+  font-weight: 600;
+  padding:1rem 0 ;
+  padding-top: 2.5rem;
+  position: relative;
+  bottom: 2rem;
+}
+.makers_container {
+  width:50%;
+  background-color: #fff;
+  padding:1rem;
+  padding-bottom: .2rem;
+  border-radius: .3rem;
+  text-align: center;
+  position: relative;
+  bottom: 3rem;
+}
+
+.makers_img_container {
+  display: grid;
+  padding:1rem .5rem;
+  grid-gap: .6rem;
+  grid-template-columns: repeat(6,1fr);
+}
+.makers_img {
+  width:100%;
+  border-radius: 50%;
+}
+.join{
+  border-top: 1px solid rgba(0,0,0,.1);
+  padding:1.2rem 0;
+  color:#cc4d29;
+  font-weight: 600;
+  font-size: .7rem;
+  cursor: pointer;
+}
+.join:hover {
+  text-decoration: underline;
+}
+
+// second 
+.product_hunt {
+  font-weight: 600;
+  padding:.8rem 0;
+  padding-top: 1.4rem;
+  position: relative;
+  bottom: 4.3rem;
+}
+.product_hunt_container {
+  width: 54%;
+  display: flex;
+  border-radius: .3rem;
+  background-color: #fff;
+  position: relative;
+  bottom: 5.3rem;
+}
+.product_hunt_left{
+  width:75%;
+  display: flex;
+  align-items: center;
+  padding:.5rem;
+}
+.product_hunt_text {
+  font-size: .8rem;
+  font-weight: 600;
+  line-height: 1.2rem;
+}
+.product_hunt_right {
+  width:25%;
+}
+.product_hunt_img {
+  width:100%;
+  height:100%;
+}
+

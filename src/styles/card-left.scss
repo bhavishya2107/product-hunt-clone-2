@@ -1,0 +1,40 @@
+.card_left {
+  display: flex;
+  padding: 1rem;
+}
+
+.heading_msl {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+ 
+  .heading_msl_today {
+    font-weight: 700;
+    font-size: large;
+  }
+  .popular_newest {
+    text-transform: uppercase;
+    font-size: small;
+    position: relative;
+    top: 10px;
+    p:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
+
+.main-right-section {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 23rem;
+}
+
+.newest {
+  position: relative;
+  left: 3rem;
+}
+
+.main-right {
+  margin-left: 1rem;
+}
