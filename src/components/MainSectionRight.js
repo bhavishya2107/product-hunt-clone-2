@@ -46,9 +46,9 @@ export default class MainSectionRight extends React.Component {
           </div>
           <p className="product_hunt" style={{ "position": "relative", "bottom": "5rem" }}>Add Products</p>
           <form onSubmit={(e) => this.props.submit(e)} className="right_form">
-            <input type="text" value={this.props.state.title} name="title" onChange={(e) => this.props.handleChange(e)} placeholder="Enter Product Name" />
-            <input type="text" value={this.props.state.text} name="text" onChange={(e) => this.props.handleChange(e)} placeholder="Enter Description" />
-            <input type="text" value={this.props.state.image} name="image" onChange={(e) => this.props.handleChange(e)} placeholder="Image URL" />
+            <input type="text" value={this.props.fullState.title} name="title" onChange={(e) => this.props.handleChange(e)} placeholder="Enter Product Name" />
+            <input type="text" value={this.props.fullState.text} name="text" onChange={(e) => this.props.handleChange(e)} placeholder="Enter Description" />
+            <input type="text" value={this.props.fullState.image} name="image" onChange={(e) => this.props.handleChange(e)} placeholder="Image URL" />
             <input type="submit" value="Submit" />
           </form>
         </div>
