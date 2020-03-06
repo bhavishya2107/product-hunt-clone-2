@@ -26,8 +26,8 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### Product Hunt Clone
-Clone of product hunt [https://www.producthunt.com/](https://www.producthunt.com/)
-This project use axios to fetch the upcoming products.
+Clone of product hunt [https://www.producthunt.com/](https://www.producthunt.com/).<br/>
+This project use axios to fetch the upcoming products.<br/>
 The UI is divided into different components there is static data taken for today and yesterday section.
 
 ### Functionality
