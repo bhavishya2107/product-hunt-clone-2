@@ -1,10 +1,10 @@
 import React from 'react'
 import '../styles/style.scss'
+import Form from '../components/form'
 
 
 export default class MainSectionRight extends React.Component {
   render() {
-
     return (
       <div>
         <div className="main-right">

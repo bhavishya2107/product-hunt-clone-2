@@ -96,6 +96,16 @@ body {
   height: 120px;
   margin-top: 1.5px;
   background: #fff;
+  min-width: 100%;
+
+  .container-img {
+    min-width: 25%;
+    text-align: center;
+  }
+
+  .container-content {
+    min-width: 50%;
+  }
 
   .container-up-vote {
     display: flex;
@@ -116,6 +126,7 @@ body {
     height: 75px;
     // border: 1px #f3f3f3 solid;
     border-radius: 2px;
+    width: 25%;
   }
 
   .container-up-vote:hover {

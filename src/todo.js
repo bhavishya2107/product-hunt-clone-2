@@ -81,7 +81,5 @@ let Card = () => {
   )
 }
 
-
-
 export default Card
 
