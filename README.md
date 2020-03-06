@@ -1,4 +1,4 @@
-### Product Hunt Clone
+## Product Hunt Clone
 Clone of product hunt [https://www.producthunt.com/](https://www.producthunt.com/).<br/>
 This project use axios to fetch the upcoming products.<br/>
 The UI is divided into different components there is static data taken for today and yesterday section.
@@ -6,7 +6,7 @@ The UI is divided into different components there is static data taken for today
 ### Functionality
 A new product can be added to the today section.
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
